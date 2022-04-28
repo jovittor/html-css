@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{
+    background-color: chartreuse;
+}
+h1{color: darkgreen;
+}
+p{color: darkgreen;
+    text-align: justify;
+}
