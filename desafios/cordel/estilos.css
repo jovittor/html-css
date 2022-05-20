@@ -14,3 +14,38 @@ header{
     padding: 50px;
     text-align: center;
 }
+h1{
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: white;
+    text-decoration:none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+section{
+    padding:10vh 0 10vh 5vh;
+    line-height: 2em;
+}
+.imagem{
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+}
+.imagem > p{
+    display: block;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+.normal{
+    background-color: white;
+}
+ footer{
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 2vh;
+ }   
