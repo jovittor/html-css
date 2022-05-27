@@ -53,6 +53,9 @@ section{
     line-height: 2em;
     font-family: var(--fonte-hand-write);
     font-size: 2em;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 section > p{
     padding-bottom: 2em;
@@ -68,6 +71,9 @@ section > p{
 }
 section#img01{
     background-image: url('../cordel/imagens/background001.jpg');
+}
+section#img02{
+    background-image: url('../cordel/imagens/background002.jpg');
 }
 .normal{
     background-color: white;
