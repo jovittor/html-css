@@ -17,10 +17,27 @@
         }
         table{
             margin: auto;
-            width: 500px;
+            width: 500px;;
+            position: relative;
         }
+        thead{
+            background-color:rgba(105, 103, 103, 0.623));
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgba(56, 54, 54, 0.623);
+
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
         td{
             border: solid 1px black;
+            height: 1.6rem;
         }
         td:nth-child(1){
             text-align: center;
@@ -29,9 +46,13 @@
         td:nth-child(3){
             text-align: right;
             width: 100px;
+
         }
         th{
             border: solid 1px black;
+            height: 1.7rem;
+            
+
         }
         tfoot{
             width: 500px;
