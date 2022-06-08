@@ -21,7 +21,7 @@
             position: relative;
         }
         thead{
-            background-color:rgba(105, 103, 103, 0.623));
+            background-color:rgba(105, 103, 103, 0.623);
         }
 
         thead > tr > th{
@@ -58,20 +58,12 @@
             width: 500px;
             background-color: lightslategray;
         }
-        .thfoot1{
-            width: 400px;
-        }
-        .thfoot2{
-            width: 100px;
-        }
         caption{
             font-size:1.5em;
             margin-bottom: .5rem;
             border-bottom: dashed rgba(0, 0, 0, 0.747);
             font-weight: 500;
             border-top: dashed rgba(0, 0, 0, 0.747);
-
-
         }
     </style>
 </head>
@@ -83,13 +75,13 @@
         </caption>
         <thead>
             <tr>
-            <th>
+            <th scope="col">
              Posição
             </th>
-            <th>
+            <th scope="col">
                 Unidade federativa
             </th>
-            <th>
+            <th scope="col">
                 População
             </th>
             </tr>
@@ -393,10 +385,9 @@
                 </td>
             </tr>
         </tbody>
-        <table>
         <tfoot>
             <tr>
-                <th scope="row" class="thfoot1">
+                <th scope="row" colspan="2">
                     Numeto total de habitantes
                 </th>
                 <th scope="row" class="thfoot2">
@@ -404,7 +395,6 @@
                 </th>
             </tr>
         </tfoot>
-        </table>
     </table>
 </body>
 </html>
